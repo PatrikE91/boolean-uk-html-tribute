@@ -1,0 +1,44 @@
+:root {
+    --brownG: rgb(96, 62, 17);
+  }
+body{
+    background-color: rgb(238, 209, 123);
+    background-image: url(https://worldofdogz.com/wp-content/uploads/2022/07/Golden-Retriever-Puppy-Eating-From-Its-Bowl.jpg.webp);
+}
+
+hr{
+    border: 1px solid black;
+}
+
+h1{
+    text-align: center;
+}
+
+.logo img{
+width: 430px;
+height: 330px;
+float: right; 
+}
+
+.center{
+    width: 430px;
+height: 330px;
+float: right; 
+}
+
+video{
+    margin: 200px;
+    float: left; 
+}
+
+h2{
+    color: var(--brownG);
+    text-decoration: underline rgb(0, 0, 0) 2px;
+}
+
+p{
+    text-align: left;
+    color: black;
+    line-height: 30px;   /* within paragraph */
+    margin-bottom: 30px;
+}
